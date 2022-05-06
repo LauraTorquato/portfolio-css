@@ -26,6 +26,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
+  box-shadow: 1px 1px 10px 1px #fff;
 }
 
 header ul {
@@ -48,29 +49,10 @@ header ul li {
   font-size: 30px;
 }
 
-.flex {
-  display: flex;
-  width: 55%;
-  margin: 0 auto;
-}
-
-.flex div {
-  border: 3px solid #000;
-  margin: 15px;
-  flex-basis: 100%;
-  background-color: #dadada;
-  padding: 20px;
-}
-
-.flex img {
-  max-width: 300px;
-  padding: 0 5px 15px 5px;
-}
-
-.flex p {
+.about p {
   max-width: 600px;
   margin: 0 auto;
-  color: #000;
+  color: #fff;
 }
 
 .form {
