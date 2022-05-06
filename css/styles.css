@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #d9e729;
+  color: #d2bc20;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,14 +21,67 @@ body {
   background-size: cover;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 10px;
+}
+
 .container {
   text-align: center;
 }
 
-h1 {
+.container .name h1 {
   font-size: 60px;
 }
 
-h5 {
+.container .name h5 {
   font-size: 30px;
+}
+
+.flex {
+  display: flex;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.flex div {
+  border: 3px solid #000;
+  margin: 15px;
+  flex-basis: 100%;
+  background-color: #dadada;
+  padding: 20px;
+}
+
+.flex img {
+  max-width: 300px;
+  padding: 0 5px 15px 5px;
+}
+
+.flex p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 50%;
+}
+
+.form button {
+  width: 15%;
 }
