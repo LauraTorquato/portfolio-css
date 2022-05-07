@@ -49,11 +49,36 @@ header ul li {
   font-size: 30px;
 }
 
+#arrow {
+  font-size: 30px;
+  cursor: pointer;
+  animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 300ms;
+}
+
+#animation {
+  transition: 300ms;
+}
+
 #arrow i:hover {
   color: #fff;
 }
 
-.about p {
+.active {
+  display: block !important;
+}
+
+#about p {
   max-width: 600px;
   margin: 0 auto;
   color: #fff;
